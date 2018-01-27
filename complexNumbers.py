@@ -1,9 +1,9 @@
-#-*-coding:Latin-1-*
+#-*-coding:UTF-8*
 def racine(a,b,c):
-    '''programme qui calcule les racines d'une fonction du second degrés
+    '''programme qui calcule les racines d'une fonction du second degrÃ©s
     inserer argument a,b et c'''
 
-    from math import sqrt #on importe la fonction racine carré
+    from math import sqrt #on importe la fonction racine carrÃ©
     i=0
     delta=b^2-4*a*c #calcul de delta
     delta=int(delta)
